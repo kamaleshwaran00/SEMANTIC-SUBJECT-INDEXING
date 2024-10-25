@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Domain Classification</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../static/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../static/js/cufon-yui.js"></script>
+<script type="text/javascript" src="../static/js/arial.js"></script>
+<script type="text/javascript" src="../static/js/cuf_run.js"></script>
+<style type="text/css">
+<!--
+.style4 {color: #CC3300;
+	font-weight: bold;
+	font-size: x-large;
+}
+.style11 {font-size: large}
+.style12 {
+	font-size: medium;
+	color: #01677D;
+}
+-->
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html">DOMAIN<span>CLASSIFY</span><small>Machine Learning - Topic Classification </small></a></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="{{ url_for('homepage')}}">Home</a></li>
+          <li><a href="{{ url_for('classification')}}">Classification</a></li>
+          <li><a href="{{ url_for('preprocessing')}}">Preprocessing</a></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="hbg">&nbsp;</div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2 align="center">Domain Classification</h2>
+          <div align="center"></div>
+          <table width="579" height="150" border="0">
+            <tr>
+              <td width="601"><div align="center">
+                  <div class="msg style4"><span class="style11">Input Sentence :</span> <span class="style12">{{ msg }}</span></div>
+              </div></td>
+            </tr>
+            <tr>
+              <td><div align="center"><span class="msg style4"><span class="style11">Preprocessing result  :</span> <span class="style12">{{ msg1 }}</span></span></div></td>
+            </tr>
+          </table>
+          <p align="center">&nbsp;</p>
+        </div>
+        <div class="article"></div>
+      </div>
+      <div class="sidebar">
+        <div class="searchform"></div>
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="{{ url_for('homepage')}}">Home</a></li>
+            <li><a href="{{ url_for('preprocessing')}}">Preprocessing</a></li>
+            <li><a href="{{ url_for('classification')}}">Domain Classification</a></li>
+            </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star">&nbsp;</h2>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<div align=center></div>
+</body>
+</html>
